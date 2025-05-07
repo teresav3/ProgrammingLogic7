@@ -61,6 +61,13 @@ class Book
         book3.SetTitle("C# in Action");
         Console.WriteLine(book3.GetTitle());  // Output: C# in Action
 
+        Book book4 = new Book();  // Declare and initialize book4
+
+        book4.SetTitle("C# Programming");
+        Console.WriteLine(book4.GetTitle());  // Output: C# Programming
+        
+        book4.SetAuthor("John Doe");
+        Console.WriteLine(book4.GetAuthor());  // Output: John Doe
 
     }
 }
